@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <com.suneee.demo.scan.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/scan_transparent" />
+
+    <LinearLayout
+        android:id="@+id/scan_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/scan_view"
+            android:layout_width="200dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/scan_bg">
+
+            <ImageView
+                android:id="@+id/scan_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/line" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/scan_topbar_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/scan_topbar_bg_color">
+
+        <ImageButton
+            android:id="@+id/exit_scan_img_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/scan_selector_common_tab_bg"
+            android:padding="10dp"
+            android:src="@drawable/scan_back_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="扫一扫"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scan_main_topbar_title_text_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.5"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/scan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/icon_scan"
+                android:gravity="center"
+                android:text="扫码"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/album_scan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/icon_scan_album"
+                android:gravity="center"
+                android:text="相册"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/input_scan_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/icon_hand_input"
+                android:gravity="center"
+                android:text="手动输入"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar_layout"
+        android:layout_below="@id/top_bar_layout"
+        android:layout_toLeftOf="@id/scan_layout"
+        android:alpha="0.5"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/view_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar_layout"
+        android:layout_below="@id/top_bar_layout"
+        android:layout_toRightOf="@id/scan_layout"
+        android:alpha="0.5"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/view_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/scan_layout"
+        android:layout_below="@id/top_bar_layout"
+        android:layout_toLeftOf="@id/view_right"
+        android:layout_toRightOf="@id/view_left"
+        android:alpha="0.5"
+        android:background="#000000" />
+
+    <View
+        android:id="@+id/view_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar_layout"
+        android:layout_below="@id/scan_layout"
+        android:layout_toLeftOf="@id/view_right"
+        android:layout_toRightOf="@id/view_left"
+        android:alpha="0.5"
+        android:background="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scan_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/scan_text"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

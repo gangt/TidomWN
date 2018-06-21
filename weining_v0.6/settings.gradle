@@ -1,0 +1,7 @@
+// GENERATED FILE - DO NOT EDIT
+//include ":", ':SWVideoLibrary'//, ':googlePullRefreshLayout', ':weiLianCommon', ':lsslcordova', ':OneCore'
+include ':CordovaLib', ':qrcode', ':SEMultiImageSelector'
+include ':gDMap'
+include ':sepay'
+include ':mainActivity'
+//include ':weiLianCommon'

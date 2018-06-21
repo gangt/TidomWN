@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.tspoon.traceur:traceur:1.0.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tspoon.traceur/traceur/1.0.1/911c7b7970c729ad1f338729a30d5ea57310ae66/traceur-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tspoon.traceur/traceur/1.0.1/fe7c78f96fb543713ffec8b6302fa81ac77b1b58/traceur-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

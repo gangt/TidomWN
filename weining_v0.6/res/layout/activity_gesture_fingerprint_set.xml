@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <include layout="@layout/person_center_title" />
+
+    <LinearLayout
+        android:id="@+id/layout_my_study"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/person_center_selector"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_weight="1"
+            android:text="@string/account_safe_open_gesture_fingerprint_lock"
+            android:textColor="@color/color_1b1b1b"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cb_switch_gesture_fingerprint_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_arrow_margin_left"
+            android:layout_marginRight="10dp"
+            android:button="@drawable/button_switch_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_gesture_fingerprint_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            style="@style/divide_line_horizontal"
+            android:background="@color/color_cfcfcf" />
+
+        <LinearLayout
+            android:id="@+id/layout_reset_gesture"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@drawable/person_center_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:text="@string/account_safe_reset_gesture"
+                android:textColor="@color/color_1b1b1b"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_arrow_margin_left"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/person_center_next" />
+        </LinearLayout>
+
+        <View
+            style="@style/divide_line_horizontal"
+            android:background="@color/color_cfcfcf" />
+
+        <LinearLayout
+            android:id="@+id/layout_my_knowledge"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@drawable/person_center_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:text="@string/account_safe_open_fingerprint"
+                android:textColor="@color/color_1b1b1b"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_switch_fingerprint_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_arrow_margin_left"
+                android:layout_marginRight="10dp"
+                android:button="@drawable/button_switch_selector" />
+        </LinearLayout>
+
+        <View
+            style="@style/divide_line_horizontal"
+            android:background="@color/color_cfcfcf"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_my_face"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_height"
+            android:background="@drawable/person_center_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_weight="1"
+                android:text="@string/account_safe_open_face"
+                android:textColor="@color/color_1b1b1b"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_arrow_margin_left"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/person_center_next" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_cfcfcf" />
+</LinearLayout>

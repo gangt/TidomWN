@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-ddp:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-ddp.aar/91bd01252883d01448790ea00f00c05b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-ddp.aar/91bd01252883d01448790ea00f00c05b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

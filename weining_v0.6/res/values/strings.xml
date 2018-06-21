@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">"威宁象谱"</string>
+    <string name="app_version">"版本：威宁象谱0.6.0.1.171108"</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+
+    <string name="api_compcode">"WEINING"</string>
+    <string name="api_appcode">"WEININGAPP"</string>
+    <string name="api_encryptCode">"1234567899876543"</string>
+    <!--短信前缀，账号注册，获取手机，邮箱验证码时使用，象翌象谱传XYXP值，翌能象谱传YNXP-->
+    <string name="app_prefix">"WNXP"</string>
+    <string name="api_version">0.6</string>
+    <!--1、生产环境 2、测试环境 3、本地环境-->
+    <string name="api_env">Android1</string>
+
+    <!-- 小圆点 start -->
+    <string name="back">后退</string>
+    <string name="home">主页</string>
+    <string name="seven_star">首页</string>
+    <string name="mine">我的</string>
+    <string name="login">登录</string>
+    <!-- 小圆点 end -->
+
+    <string name="msg_no_network_connection">没有网络连接,请检查网络设置！</string>
+
+    <string name="label_title_resolution">Resolution\n(Width * Height)</string>
+    <string name="label_title_frame_rate">Frame Rate\n(fps)</string>
+    <string name="label_title_bit_rate">Bit Rate\n(kbps)</string>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+
+    <string name="use_fingerprint_to_authenticate_title">使用指纹认证</string>
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+
+    <!-- person页面 start -->
+    <!-- person -->
+    <string name="person_app_set">我的</string>
+    <string name="person_app_set0">个人中心</string>
+    <string name="person_app_set1">个人资料</string>
+    <string name="person_app_set2">账户安全</string>
+    <string name="person_app_set3">消息</string>
+    <string name="person_app_set4">设置</string>
+    <string name="person_app_set5">帮助与反馈</string>
+    <string name="person_app_set6">关于</string>
+    <string name="person_app_set7">我的空间</string>
+    <string name="person_app_set8">生成二维码</string>
+    <string name="person_app_set9">修改昵称</string>
+    <string name="person_app_set10">修改签名</string>
+    <string name="person_app_set11">修改地区</string>
+
+    <string name="module_command_center">指挥中心</string>
+
+
+    <!--error messaage notice-->
+    <string name="login_timeout">登录接口请求超时</string>
+    <string name="no_limit_visit">无权限访问</string>
+    <string name="login_app_no_find">系统错误，请联系管理员</string>
+    <string name="login_no_exists_account">无法识别用户身份</string>
+    <string name="login_enterprise_not_enabled">系统错误，请联系管理员</string>
+    <string name="login_please_mobile_email_login">账号重复，请用手机或邮箱登录</string>
+    <string name="login_user_disabled">该帐号已禁用，请联系管理员!</string>
+    <string name="get_user_info_fail">用户信息获取失败，请重新登录</string>
+    <string name="user_had_logout">用户已被下线，请重新登录</string>
+    <string name="app_error">应用异常，请稍后重试</string>
+    <string name="industry_has_no_info">该产业下暂无信息</string>
+
+    <!--public-->
+    <string name="exit">退出</string>
+    <string name="exit_chenxu_title">退出登录</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="confirm_change">确认修改</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+
+    <!-- login -->
+    <string name="login_user">手机号:</string>
+    <string name="login_pwd">密码:</string>
+    <string name="login_pwd_angin">确认密码:</string>
+    <string name="login_pwd_hint">密码(8&#8211;16位)</string>
+    <string name="login_wx_hint">微信号登录</string>
+    <string name="login_forget_password">忘记密码?</string>
+    <string name="login_regist_hint">忘记密码?点击找回</string>
+    <string name="login_title_hint">登录</string>
+    <string name="login_button">登 录</string>
+    <string name="login_login_hint">请输入手机号</string>
+    <string name="login_shoushi_hint">手势</string>
+    <string name="login_finger_hint">指纹登录</string>
+    <string name="login_finger">指纹</string>
+    <string name="login_finger_not_match">指纹不匹配</string>
+    <string name="login_finger_try_again">请再试一次</string>
+    <string name="login_pwdlogin_hint">密码</string>
+    <string name="login_copyright_notice">版权所有© 象翌微链科技发展有限公司 桂ICP备1300904号</string>
+
+    <!-- forget password %1$s-->
+    <string name="message_or_email_checkcode_string_format">请输入%1$s收到的%2$s验证码</string>
+
+
+    <!-- Gesture login activity -->
+    <string name="gesture_forget_gesture">忘记手势密码?</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">手势密码错误</string>
+    <string name="gesture_correct">输入正确</string>
+    <string name="gesture_open_lock">指纹解锁</string>
+
+    <!-- person_set -->
+    <string name="person_app_3_set">编辑个人信息</string>
+    <string name="person_app_3_set_header">头像</string>
+    <string name="person_app_3_set_name">昵称</string>
+    <string name="person_app_3_set_flag">个性签名</string>
+    <string name="person_app_3_set_sex">性别</string>
+    <string name="person_app_3_set_name1">姓名</string>
+    <string name="person_app_3_set_sex_man">男</string>
+    <string name="person_app_3_set_sex_femam">女</string>
+    <string name="person_app_3_set_weilian">微链号</string>
+    <string name="person_app_3_set_sex_tel">联系方式</string>
+    <string name="person_app_3_set_area">地区</string>
+    <string name="person_app_3_set_area_exmple">软件产业基地</string>
+    <string name="person_app_3_set_from_moblie_pic">从手机相册选择</string>
+    <string name="person_app_3_set_take_photos">拍照</string>
+
+    <string name="person_app_3_set_headerimg_hint">更换</string>
+    <!--account_safe-->
+    <string name="person_app_0_set_change_password">修改密码</string>
+    <string name="person_app_0_set_gesture_fingerprint_lock">手势、指纹</string>
+
+    <string name="person_app_oldpwd_set_change_password">旧密码</string>
+    <string name="person_app_newpwd1_set_change_password">新密码</string>
+    <string name="person_app_newpwd2_set_change_password">确认密码</string>
+
+    <!-- gesture_fingerprint_lock -->
+    <string name="account_safe_open_gesture_fingerprint_lock">开启手势、指纹锁定</string>
+    <string name="account_safe_priority">优先级</string>
+    <string name="account_safe_reset_gesture">重置手势密码</string>
+    <string name="account_safe_open_fingerprint">开启指纹解锁</string>
+    <string name="account_safe_open_face">开启脸部解锁</string>
+    <string name="account_safe_notice_open_fingerprint"> 请先在系统设置-指纹中录入指纹</string>
+
+    <!--my_space-->
+    <string name="person_app_1_set_my_study">我的学习</string>
+    <string name="person_app_1_set_my_knowledge">我的知识</string>
+    <string name="person_app_1_set_my_organization">我的组织</string>
+    <string name="person_app_1_set_my_commodity">我的商品</string>
+    <string name="person_app_1_set_my_work">我的工作</string>
+    <string name="person_app_1_set_my_collocation">我的收藏</string>
+
+    <!-- settings -->
+    <string name="person_app_2_set_voice_remind">声音提醒</string>
+    <string name="person_app_2_set_shake_remind">震动提醒</string>
+    <string name="person_app_2_set_message_push">消息推送</string>
+    <string name="person_app_2_set_font_size">字体大小</string>
+    <string name="person_app_2_set_check_update">检查更新</string>
+
+    <!-- register -->
+    <string name="register_now">立即注册</string>
+    <string name="register_title_next">注册完成</string>
+    <string name="register_title_hint">注册</string>
+    <string name="register_code_hint">短信验证码</string>
+    <string name="register_code">验证码:</string>
+    <string name="register_user_hav">登录帐号</string>
+    <string name="register_finish">完成注册</string>
+    <string name="register_protocl_id">点击\"下一步\"按钮，即表示你将认可</string>
+    <string name="register_protocl_name_id">《象谱软件许可及服务协议》</string>
+    <string name="register_have_accout_id">已有账号</string>
+    <string name="app_3_set_security_code">获取验证码</string>
+
+    <!--help_and_feedback-->
+    <string name="person_app_4_set_function_introduce">功能介绍</string>
+    <string name="person_app_4_set_faq">FAQ</string>
+    <string name="person_app_4_set_advise">建议</string>
+
+    <!-- 微博授权 -->
+    <string name="weibosdk_demo_token_to_string_format">Token：%1$s \nRefresh Token：%2$s \nexpires_in：%3$s</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_token_has_existed">Token 仍在有效期内，无需再次登录。</string>
+
+    <!-- generate_qrcode -->
+    <string name="person_app_8_set_url_address">URL地址:</string>
+    <string name="person_app_8_set_qrcode">二维码:</string>
+    <string name="person_app_8_set_generate">生成</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
+    <string name="create_gesture_default">绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+    <string name="person_setting_tips">若需要关闭消息提醒，请前往手机设置->通知和状态栏->通知管理->威宁象谱，关闭"允许通知"按钮</string>
+
+    <!-- 提示语 start -->
+    <string name="choose_space">请先选择进入的空间</string>
+    <string name="gestures_not_open">未开启手势验证</string>
+    <string name="gestures_not_set">未设置手势密码</string>
+    <string name="fingerprint_not_open">未开启指纹验证</string>
+    <string name="unopened_function">此功能未开放</string>
+    <string name="data_error_notice">数据异常，请重试</string>
+    <string name="data_error_notice_txt">数据异常</string>
+    <string name="data_video_notice">确定是否加入音视频通话会议？</string>
+    <string name="sure_notice">确定</string>
+    <string name="sure_notice_txt">重试</string>
+    <string name="account_no_null">账号不能为空</string>
+    <string name="password_no_null">密码不能为空</string>
+    <string name="no_network">当前网络不可用</string>
+    <string name="login_default">登录失败，请重试</string>
+    <string name="input_telphone">请输入手机号</string>
+    <string name="input_email">请输入邮箱</string>
+    <string name="error_telphone">手机格式不正确</string>
+    <string name="error_email">邮箱格式不正确</string>
+    <string name="input_checkcode">请输入验证码</string>
+    <string name="error_checkcode">验证码有误</string>
+    <string name="failed_get_telphone_checkcode">手机验证码获取失败</string>
+    <string name="failed_get_email_checkcode">邮箱验证码获取失败</string>
+    <string name="checkcode_no_null">验证码不能为空</string>
+    <string name="new_psd_no_null">新密码不能为空</string>
+    <string name="sure_psd_no_null">确认密码不能为空</string>
+    <string name="password_mismatch">两次密码输入不一致，请重新输入</string>
+    <string name="failed_change_password">密码修改失败，请重试</string>
+    <string name="success_change_password">密码修改成功</string>
+    <string name="data_change_error_notice">数据修改失败，请重试</string>
+    <string name="old_passwor_no_null">原密码不能为空</string>
+    <string name="new_password_no_null">新密码不能为空</string>
+    <string name="new_password_mismatch">两次输入的新密码不一致</string>
+    <string name="password_change_fail">密码修改失败，请重试</string>
+    <string name="net_unavailable">当前网络不可用，请检查网络设置</string>
+    <string name="net_loading_again">重新加载</string>
+    <string name="gesture_can_not_use">退出账户后无法使用手势</string>
+    <string name="fingerprint_can_not_use">退出账户后无法使用指纹</string>
+    <!-- 提示语 end -->
+
+</resources>

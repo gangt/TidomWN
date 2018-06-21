@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e8e8e8"
+    android:orientation="vertical">
+    <include layout="@layout/base_title_headerbar"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/basic_skin_icon_timeline_bg"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="12月21日"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#787878"
+                android:drawableRight="@drawable/basic_skin_icon_timeline_triangle"
+                android:id="@+id/imageView6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/basic_skin_icon_timeline_bg"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="事件类型"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="#787878"
+                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/basic_skin_icon_timeline_triangle"
+                android:id="@+id/imageView4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center"
+            android:paddingRight="20dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/28 星期六"
+                android:textSize="13sp"
+                android:textColor="#787878"
+                android:id="@+id/timeline_time" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21℃"
+                android:textSize="13sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#787878"
+                android:id="@+id/timeline_temperature" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lssl_wealth"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/timeline_weather" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/im_skin_icon_item_splite_line" />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:listSelector="@android:color/transparent"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:background="#A6A6A6"/>
+</LinearLayout>

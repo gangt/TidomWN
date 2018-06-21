@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/mobile_check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="101dp"
+        android:background="@null"
+        android:src="@drawable/mobile_check_bg" />
+
+    <View
+        android:layout_width="173dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="36dp"
+        android:background="#DA8282"></View>
+
+    <ImageButton
+        android:id="@+id/email_check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@null"
+        android:src="@drawable/email_check_bg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <ImageButton
+        android:id="@+id/img_back_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:background="@null"
+        android:src="@drawable/back_btn_bg" />
+
+</LinearLayout>

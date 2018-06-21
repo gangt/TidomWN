@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="recyclertreeview-lib:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclertreeview-lib.aar/018904434cee4f9e94df214f3fd3fc7e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclertreeview-lib.aar/018904434cee4f9e94df214f3fd3fc7e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

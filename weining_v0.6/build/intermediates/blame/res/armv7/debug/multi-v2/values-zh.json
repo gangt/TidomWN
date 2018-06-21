@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\build\\intermediates\\incremental\\mergeArmv7DebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\jiaozivideoplayer-6.2.8.aar\\cb333d79e7ac9530fde38b08b5956918\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,147,185,249,303,358",
+                        "endColumns": "49,41,37,63,53,54,54",
+                        "endOffsets": "100,142,180,244,298,353,408"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "756,806,848,886,950,1004,1059",
+                        "endColumns": "49,41,37,63,53,54,54",
+                        "endOffsets": "801,843,881,945,999,1054,1109"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\PhotoPicker.aar\\0fb7aef261f4d97348d67756219aa0e3\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,154,215,262,323,368,435,490,549,621,667,712",
+                        "endColumns": "51,46,60,46,60,44,66,54,58,71,45,44,43",
+                        "endOffsets": "102,149,210,257,318,363,430,485,544,616,662,707,751"
+                    }
+                }
+            ]
+        }
+    ]
+}

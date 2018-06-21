@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\bundles\\debug\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,104,146",
+                        "endColumns": "48,41,40",
+                        "endOffsets": "99,141,182"
+                    }
+                }
+            ]
+        }
+    ]
+}

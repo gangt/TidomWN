@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,147,193,239,284,331,389,445,498,547,600,891",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,19,22",
+                        "endColumns": "45,45,45,45,44,46,57,55,52,48,52,12,12",
+                        "endOffsets": "96,142,188,234,279,326,384,440,493,542,595,886,1046"
+                    }
+                }
+            ]
+        }
+    ]
+}

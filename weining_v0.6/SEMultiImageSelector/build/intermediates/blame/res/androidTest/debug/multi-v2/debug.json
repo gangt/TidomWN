@@ -1,0 +1,65 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw480dp-v13_values-sw480dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\bundles\\debug\\res\\values-sw480dp-v13\\values-sw480dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,104,147",
+                        "endColumns": "48,42,40",
+                        "endOffsets": "99,142,183"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw360dp-v13_values-sw360dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\bundles\\debug\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,104,146",
+                        "endColumns": "48,41,40",
+                        "endOffsets": "99,141,182"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw720dp-v13_values-sw720dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\bundles\\debug\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,104,147",
+                        "endColumns": "48,42,40",
+                        "endOffsets": "99,142,183"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\wnNEW\\weining_v0.6\\SEMultiImageSelector\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,179,228,282,331,374,423,464,515,559,610,666,715,763,802,848,900,1347",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,25,35",
+                        "endColumns": "67,55,48,53,48,42,48,40,50,43,50,55,48,47,38,45,51,12,12",
+                        "endOffsets": "118,174,223,277,326,369,418,459,510,554,605,661,710,758,797,843,895,1342,1912"
+                    }
+                }
+            ]
+        }
+    ]
+}

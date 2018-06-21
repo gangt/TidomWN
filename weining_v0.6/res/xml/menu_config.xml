@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <commandCenterHome>
+        <menuTitle>指挥大厅</menuTitle>
+        <menuUrl>http://zhihuidating</menuUrl>
+        
+        <menuItem>
+            <name></name>
+            <iconName>search</iconName>
+            <url>http0</url>
+        </menuItem>
+        
+        <menuItem>
+            <name></name>
+            <iconName>my</iconName>
+            <url>http1</url>
+        </menuItem>
+        
+        <menuItem>
+            <name></name>
+            <iconName>dingding</iconName>
+            <url>http2</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>sc</iconName>
+            <url>http3</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>key</iconName>
+            <url>http4</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>fl</iconName>
+            <url>http5</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>hxz</iconName>
+            <url>http6</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>message</iconName>
+            <url>http7</url>
+        </menuItem>
+    </commandCenterHome>
+    <commandCenterAdd>
+        <menuTitle>新增</menuTitle>
+        <menuUrl>http://xinzen</menuUrl>
+        
+        <menuItem>
+            <name></name>
+            <iconName>search</iconName>
+            <url>http0</url>
+        </menuItem>
+        
+        <menuItem>
+            <name></name>
+            <iconName>my</iconName>
+            <url>http1</url>
+        </menuItem>
+        
+        <menuItem>
+            <name></name>
+            <iconName>dingding</iconName>
+            <url>http2</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>sc</iconName>
+            <url>http3</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>key</iconName>
+            <url>http4</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>fl</iconName>
+            <url>http5</url>
+        </menuItem>
+        <menuItem>
+            <name></name>
+            <iconName>hxz</iconName>
+            <url>http6</url>
+        </menuItem>
+    </commandCenterAdd>
+
+</config>

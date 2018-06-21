@@ -1,0 +1,591 @@
+/*
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+*/
+
+// GENERATED FILE! DO NOT EDIT!
+
+apply plugin: 'com.android.application'
+apply from: rootProject.file('dependencies.gradle')
+
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jakewharton.hugo'
+apply plugin: 'idea'
+
+ext {
+    compileSdkVersion = 26
+    targetSdkVersion = 26
+    buildToolsVersion = "26.0.2"
+}
+
+buildscript {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+        maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
+        mavenLocal()
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    // Switch the Android Gradle plugin version requirement depending on the
+    // installed version of Gradle. This dependency is documented at
+    // http://tools.android.com/tech-docs/new-build-system/version-compatibility
+    // and https://issues.apache.org/jira/browse/CB-8143
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.0"
+        classpath 'io.realm:realm-gradle-plugin:4.2.0'
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+        classpath 'com.google.gms:google-services:3.1.0'
+        classpath 'com.github.triplet.gradle:play-publisher:1.1.5'
+//        classpath 'io.fabric.tools:gradle:1.25.2'
+    }
+
+    configurations.classpath.exclude group: 'com.android.tools.external.lombok'
+}
+
+// Allow plugins to declare Maven dependencies via build-extras.gradle.
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://raw.githubusercontent.com/Pgyer/mvn_repo_pgyer/master" }
+    maven { url "http://mvn.gt.igexin.com/nexus/content/repositories/releases/" }
+    maven { url 'https://github.com/WickeDev/stetho-realm/raw/master/maven-repo' }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.8'
+}
+
+// Configuration properties. Set these via environment variables, build-extras.gradle, or gradle.properties.
+// Refer to: http://www.gradle.org/docs/current/userguide/tutorial_this_and_that.html
+ext {
+    apply from: 'CordovaLib/cordova.gradle'
+    // The value for android.compileSdkVersion.
+    if (!project.hasProperty('cdvCompileSdkVersion')) {
+        cdvCompileSdkVersion = null;
+    }
+    // The value for android.buildToolsVersion.
+    if (!project.hasProperty('cdvBuildToolsVersion')) {
+        cdvBuildToolsVersion = null;
+    }
+    // Sets the versionCode to the given value.
+    if (!project.hasProperty('cdvVersionCode')) {
+        cdvVersionCode = null
+    }
+    // Sets the minSdkVersion to the given value.
+    if (!project.hasProperty('cdvMinSdkVersion')) {
+        cdvMinSdkVersion = null
+    }
+    // Whether to build architecture-specific APKs.
+    if (!project.hasProperty('cdvBuildMultipleApks')) {
+        cdvBuildMultipleApks = null
+    }
+    // .properties files to use for release signing.
+    if (!project.hasProperty('cdvReleaseSigningPropertiesFile')) {
+        cdvReleaseSigningPropertiesFile = null
+    }
+    // .properties files to use for debug signing.
+    if (!project.hasProperty('cdvDebugSigningPropertiesFile')) {
+        cdvDebugSigningPropertiesFile = null
+    }
+    // Set by build.js script.
+    if (!project.hasProperty('cdvBuildArch')) {
+        cdvBuildArch = null
+    }
+
+    // Plugin gradle extensions can append to this to have code run at the end.
+    cdvPluginPostBuildExtras = []
+}
+
+// PLUGIN GRADLE EXTENSIONS START
+apply from: "cordova-plugin-crosswalk-webview/chat-xwalk.gradle"
+apply from: "phonegap-plugin-push/chat-push.gradle"
+//apply from: "twitter-connect-plugin/chat-twitter.gradle"
+// PLUGIN GRADLE EXTENSIONS END
+//apply plugin: 'com.google.gms.google-services'
+
+def hasBuildExtras = file('build-extras.gradle').exists()
+if (hasBuildExtras) {
+    apply from: 'build-extras.gradle'
+}
+
+// Set property defaults after extension .gradle files.
+if (ext.cdvCompileSdkVersion == null) {
+    ext.cdvCompileSdkVersion = privateHelpers.getProjectTarget()
+}
+if (ext.cdvBuildToolsVersion == null) {
+    ext.cdvBuildToolsVersion = privateHelpers.findLatestInstalledBuildTools()
+}
+if (ext.cdvDebugSigningPropertiesFile == null && file('debug-signing.properties').exists()) {
+    ext.cdvDebugSigningPropertiesFile = 'debug-signing.properties'
+}
+if (ext.cdvReleaseSigningPropertiesFile == null && file('release-signing.properties').exists()) {
+    ext.cdvReleaseSigningPropertiesFile = 'release-signing.properties'
+}
+
+// Cast to appropriate types.
+ext.cdvBuildMultipleApks = cdvBuildMultipleApks == null ? false : cdvBuildMultipleApks.toBoolean();
+ext.cdvMinSdkVersion = cdvMinSdkVersion == null ? null : Integer.parseInt('' + cdvMinSdkVersion)
+ext.cdvVersionCode = cdvVersionCode == null ? null : Integer.parseInt('' + cdvVersionCode)
+
+def computeBuildTargetName(debugBuild) {
+    def ret = 'assemble'
+    if (cdvBuildMultipleApks && cdvBuildArch) {
+        def arch = cdvBuildArch == 'arm' ? 'armv7' : cdvBuildArch
+        ret += '' + arch.toUpperCase().charAt(0) + arch.substring(1);
+    }
+    return ret + (debugBuild ? 'Debug' : 'Release')
+}
+
+// Make cdvBuild a task that depends on the debug/arch-sepecific task.
+task cdvBuildDebug
+cdvBuildDebug.dependsOn {
+    return computeBuildTargetName(false)
+}
+
+task cdvBuildRelease
+cdvBuildRelease.dependsOn {
+    return computeBuildTargetName(true)
+}
+
+task cdvPrintProps << {
+    println('cdvCompileSdkVersion=' + cdvCompileSdkVersion)
+    println('cdvBuildToolsVersion=' + cdvBuildToolsVersion)
+    println('cdvVersionCode=' + cdvVersionCode)
+    println('cdvMinSdkVersion=' + cdvMinSdkVersion)
+    println('cdvBuildMultipleApks=' + cdvBuildMultipleApks)
+    println('cdvReleaseSigningPropertiesFile=' + cdvReleaseSigningPropertiesFile)
+    println('cdvDebugSigningPropertiesFile=' + cdvDebugSigningPropertiesFile)
+    println('cdvBuildArch=' + cdvBuildArch)
+    println('computedVersionCode=' + android.defaultConfig.versionCode)
+    android.productFlavors.each { flavor ->
+        println('computed' + flavor.name.capitalize() + 'VersionCode=' + flavor.versionCode)
+    }
+}
+
+android {
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        android.dexOptions {
+            jumboMode = true
+            incremental false
+            javaMaxHeapSize "4g"
+        }
+
+    }
+    defaultConfig {
+        applicationId "com.suneee.weining"
+
+        if (cdvMinSdkVersion != null) {
+            minSdkVersion cdvMinSdkVersion
+        }
+
+        manifestPlaceholders = [
+                // 威宁象谱0.6正式个推配置参数(包名:com.suneee.weining)
+                GETUI_APP_ID    : "29aUS6XiAi60oiqrzgTgt6",
+                GETUI_APP_KEY   : "8oJ4UbGiLS6qEKTp15lrY5",
+                GETUI_APP_SECRET: "3jdc2gdiRp79VoEvcSFEt4"
+        ]
+        multiDexEnabled true
+//        targetSdkVersion 26
+//        minSdkVersion 16
+        versionCode 1301
+        versionName "1.3.0"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false;
+    }
+
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    //版本名后面添加一句话，意思就是flavor dimension 它的维度就是该版本号，这样维度就是都是统一的了
+    flavorDimensions "versionCode"
+
+    packagingOptions { // 加上这写代码
+        pickFirst 'META-INF/*'
+    }
+
+    if (Boolean.valueOf(cdvBuildMultipleApks)) {
+        productFlavors {
+            armv7 {
+                versionCode 1301
+                ndk {
+                    abiFilters "armeabi-v7a", ""
+                }
+            }
+            x86 {
+                versionCode 1301
+                ndk {
+                    abiFilters "x86", ""
+                }
+            }
+//            all {
+//                ndk {
+//                    abiFilters "armeabi", ""
+//                }
+//            }
+        }
+    } else if (!cdvVersionCode) {
+        def minSdkVersion = cdvMinSdkVersion ?: privateHelpers.extractIntFromManifest("minSdkVersion")
+        // Vary versionCode by the two most common API levels:
+        // 14 is ICS, which is the lowest API level for many apps.
+        // 20 is Lollipop, which is the lowest API level for the updatable system webview.
+        if (minSdkVersion >= 20) {
+            defaultConfig.versionCode += 9
+        } else if (minSdkVersion >= 14) {
+            defaultConfig.versionCode += 8
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+//    externalNativeBuild {
+//        ndkBuild {
+//            path 'src/cpp/Android.mk'
+//        }
+//    }
+    if (cdvReleaseSigningPropertiesFile) {
+        signingConfigs {
+            release {
+                // These must be set or Gradle will complain (even if they are overridden).
+                keyAlias = "suneee"
+                keyPassword = "suneee123"
+                // And these must be set to non-empty in order to have the signing step added to the task graph.
+                storeFile = null
+                storePassword = "suneee123"
+            }
+        }
+        buildTypes {
+            release {
+                minifyEnabled false //true开启混淆配置，false关闭
+                // 移除无用的resource文件
+//                shrinkResources true
+
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.release
+            }
+        }
+        addSigningProps(cdvReleaseSigningPropertiesFile, signingConfigs.release)
+    }
+    if (cdvDebugSigningPropertiesFile) {
+        signingConfigs {
+            debug {
+                // These must be set or Gradle will complain (even if they are overridden).
+                keyAlias = "suneee"
+                keyPassword = "suneee123"
+                // And these must be set to non-empty in order to have the signing step added to the task graph.
+                storeFile = null
+                storePassword = "suneee123"
+            }
+        }
+        buildTypes {
+            debug {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+                signingConfig signingConfigs.debug
+            }
+        }
+        addSigningProps(cdvDebugSigningPropertiesFile, signingConfigs.debug)
+    }
+    dexOptions {
+        incremental true
+    }
+    allprojects {
+        gradle.projectsEvaluated {
+            tasks.withType(JavaCompile) {
+                options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+            }
+        }
+        repositories {
+//            jcenter()
+//            mavenCentral()
+            // jentral镜像仓库地址
+            maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+            // mavenCentral镜像仓库地址
+            maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+            // google镜像仓库地址
+//            maven { url 'http://maven.aliyun.com/nexus/content/repositories/google' }
+
+            flatDir {
+                dirs 'libs'
+            }
+            maven { url 'https://jitpack.io' }
+            maven { url 'http://maven.aliyun.com/nexus/content/repositories/releases/' }
+            maven { url 'https://maven.google.com' }
+            maven { url 'https://github.com/lijingle1/stetho-realm/raw/master/maven-repo' }
+            maven { url 'http://dl.bintray.com/amulyakhare/maven' } //for TextDrawable.
+            maven { url "https://clojars.org/repo/" } //for icepick.
+            maven { url 'https://jitpack.io' } //for widget-fontawesome.
+            maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
+            //for widget-fontawesome.
+
+        }
+    }
+
+    productFlavors {
+    }
+}
+
+ext {
+    stethoVersion = '1.5.0'
+    stethoOkhttp3Version = '1.5.0'
+    stethoRealmVersion = '2.2.2'
+    rxbindingVersion = '2.0.0'
+    rxlifecycleVersion = '2.1.0'
+    icepickVersion = '3.2.0'
+    permissionsdispatcherVersion = '2.4.0'
+    dependencies {
+        compile fileTree(include: '*.jar', dir: 'libs')
+
+        // SUB-PROJECT DEPENDENCIES START
+
+        //    debugCompile project(path: 'CordovaLib', configuration: 'debug')
+        //    releaseCompile project(path: 'CordovaLib', configuration: 'release')
+        compile project(':CordovaLib')
+//        compile project(':weiLianCommon')
+        compile project(':qrcode')
+        compile project(':sepay')
+        compile project(':mainActivity')
+        compile project(':gDMap')
+        compile files('libs/BaiduLBS_Android.jar')
+        compile files('libs/seutils.jar')
+//        compile files('libs/agora-rtc-sdk.jar')
+        compile files('libs/mta-sdk-1.6.2.jar')
+
+        //    provided files('libs/okhttp-3.2.0.jar')
+        compile 'com.squareup.okhttp3:okhttp:3.9.0'
+        compile files('libs/AudioEngineSDK.jar')
+        compile files('libs/HCNetSDK.jar')
+        compile files('libs/jna.jar')
+        compile files('libs/PlayerSDK.jar')
+        compile 'com.android.support:support-v13:26+'
+        compile 'com.google.android.gms:play-services-gcm:9.0.2'
+        compile 'com.facebook.android:facebook-android-sdk:4.+'
+        compile 'com.google.android.gms:play-services-plus:9.0.2'
+        compile 'com.google.android.gms:play-services-identity:9.0.2'
+        compile 'com.pgyersdk:sdk:2.7.0'
+        compile 'com.getui:sdk:2.9.5.0'
+        compile 'com.android.support:multidex:1.0.0'
+        compile 'com.android.support:design:26.1.0'
+        compile 'com.android.support:appcompat-v7:26.1.0'
+        compile 'com.android.support:recyclerview-v7:26.1.0'
+        compile 'me.leolin:ShortcutBadger:1.1.17@aar'
+        compile 'org.litepal.android:core:1.5.1'
+
+        // 数据库
+        compile 'com.github.bumptech.glide:glide:3.7.0'
+        // 头像处理库
+        compile 'com.makeramen:roundedimageview:2.2.1'
+        // 文件下载库
+        compile 'org.wlf:FileDownloader:0.3.2'
+
+        // Face++相关
+        compile 'com.github.FacePlusPlus:MegviiLicMgr-Android-SDK:0.3.0'
+        compile 'com.github.FacePlusPlus:MegviiFacepp-Android-SDK:0.4.7'
+        compile files('libs/FaceppSDK.jar')
+
+        //阿里云推送--start--
+        compile 'com.j256.ormlite:ormlite-core:4.48'
+        compile 'com.j256.ormlite:ormlite-android:4.48'
+        compile 'com.aliyun.ams:alicloud-android-push:3.0.11@aar'
+        compile 'com.aliyun.ams:alicloud-android-utdid:1.1.5.3'
+        compile 'com.aliyun.ams:alicloud-android-ut:5.0.0'
+        compile 'com.aliyun.ams:alicloud-android-third-push:3.0.3@aar'
+
+        //阿里云推送--end--
+        compile(name: 'RocketChat-app', ext: 'aar')
+        compile(name: 'PhotoPicker', ext: 'aar')
+        compile(name: 'android-ddp', ext: 'aar')
+        compile(name: 'log-wrapper', ext: 'aar')
+        compile(name: 'persistence-realm', ext: 'aar')
+        compile(name: 'rocket-chat-android-widgets', ext: 'aar')
+        compile(name: 'recyclertreeview-lib', ext: 'aar')
+
+        api 'com.facebook.fresco:fresco:1.4.0'
+        api 'com.facebook.fresco:imagepipeline-okhttp3:1.4.0'
+        api extraDependencies.okHTTP
+        api extraDependencies.textDrawable
+        api supportDependencies.annotation
+        api supportDependencies.cardView
+        api supportDependencies.designSupportLibrary
+        api supportDependencies.constraintLayout
+        api supportDependencies.supportV13
+        api supportDependencies.customTabs
+        api rxbindingDependencies.rxBinding
+        api rxbindingDependencies.rxBindingSupport
+        api "org.jetbrains.kotlin:kotlin-stdlib-jre8:$rootProject.ext.kotlinVersion"
+        implementation 'org.nibor.autolink:autolink:0.6.0'
+        implementation 'com.github.yusukeiwaki.android-widget:widget-fontawesome:0.0.1'
+        implementation 'com.caverock:androidsvg:1.2.1'
+        testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$rootProject.ext.kotlinVersion"
+        testImplementation "org.jetbrains.kotlin:kotlin-test:$rootProject.ext.kotlinVersion"
+        testImplementation 'junit:junit:4.12'
+        testImplementation 'org.mockito:mockito-core:2.10.0'
+        compile 'com.github.promeg:tinypinyin:2.0.3'
+        compile 'com.github.promeg:tinypinyin-lexicons-android-cncity:2.0.3'
+        implementation extraDependencies.optional
+        implementation extraDependencies.rxJava
+        implementation extraDependencies.rxKotlin
+        implementation extraDependencies.boltTask
+        testImplementation 'org.mockito:mockito-inline:2.8.9'
+        implementation extraDependencies.rxAndroid
+        testImplementation 'org.json:json:20170516'
+        testImplementation 'org.skyscreamer:jsonassert:1.5.0'
+
+        //    -------------------------------------------------------------------
+        implementation supportDependencies.multidex
+        implementation rxbindingDependencies.rxBindingAppcompact
+        implementation "com.trello.rxlifecycle2:rxlifecycle:$rxlifecycleVersion"
+        implementation "com.trello.rxlifecycle2:rxlifecycle-android:$rxlifecycleVersion"
+        implementation "com.trello.rxlifecycle2:rxlifecycle-components:$rxlifecycleVersion"
+        implementation 'nl.littlerobots.rxlint:rxlint:1.2'
+        implementation "frankiesardo:icepick:$icepickVersion"
+        annotationProcessor "frankiesardo:icepick-processor:$icepickVersion"
+        implementation "com.github.hotchemi:permissionsdispatcher:$permissionsdispatcherVersion"
+        annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:$permissionsdispatcherVersion"
+
+        //    implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        //        transitive = true;
+        //    }
+        implementation(extraDependencies.crouton) {
+            exclude group: 'com.android.support', module: 'support-v4'
+        }
+
+        implementation extraDependencies.androidJob
+        implementation extraDependencies.jstate
+        debugImplementation "com.facebook.stetho:stetho:$stethoVersion"
+        debugCompile "com.facebook.stetho:stetho-okhttp3:$stethoOkhttp3Version"
+        debugCompile "com.uphyca:stetho_realm:$stethoRealmVersion"
+        debugCompile 'com.tspoon.traceur:traceur:1.0.1'
+        testImplementation 'org.robolectric:robolectric:3.3'
+        testImplementation "org.jetbrains.kotlin:kotlin-reflect:$rootProject.ext.kotlinVersion"
+        testImplementation 'com.nhaarman:mockito-kotlin:1.5.0'
+        testImplementation 'org.amshove.kluent:kluent:1.14'
+        implementation 'com.github.bumptech.glide:glide:4.5.0'
+        annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+        compile 'me.jessyan:progressmanager:1.5.0'
+        implementation 'cn.jzvd:jiaozivideoplayer:6.2.8'
+        implementation 'com.zhy:autolayout:1.4.5'
+        implementation 'com.contrarywind:Android-PickerView:4.1.2'
+        implementation 'org.greenrobot:eventbus:3.0.0'
+        implementation 'com.jakewharton:butterknife:8.4.0'
+        annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+        annotationProcessor 'com.google.dagger:dagger-compiler:2.0'
+        implementation 'com.google.dagger:dagger:2.0'
+        implementation 'io.agora.rtc:full-sdk:2.1.0'
+        compile 'com.shuyu:gsyVideoPlayer-java:5.0.0-beta'
+        compile 'com.tencent.bugly:crashreport:latest.release'
+        compile 'com.shuyu:gsyVideoPlayer-armv5:5.0.0-beta'
+        compile 'com.shuyu:gsyVideoPlayer-armv7a:5.0.0-beta'
+        compile 'com.shuyu:gsyVideoPlayer-arm64:5.0.0-beta'
+        compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    }
+}
+
+
+def promptForReleaseKeyPassword() {
+    if (!cdvReleaseSigningPropertiesFile) {
+        return;
+    }
+    if ('__unset'.equals(android.signingConfigs.release.storePassword)) {
+        android.signingConfigs.release.storePassword = privateHelpers.promptForPassword('Enter key store password: ')
+    }
+    if ('__unset'.equals(android.signingConfigs.release.keyPassword)) {
+        android.signingConfigs.release.keyPassword = privateHelpers.promptForPassword('Enter key password: ');
+    }
+}
+
+gradle.taskGraph.whenReady { taskGraph ->
+    taskGraph.getAllTasks().each() { task ->
+        if (task.name == 'validateReleaseSigning') {
+            promptForReleaseKeyPassword()
+        }
+    }
+}
+
+def addSigningProps(propsFilePath, signingConfig) {
+    def propsFile = file(propsFilePath)
+    def props = new Properties()
+    propsFile.withReader { reader ->
+        props.load(reader)
+    }
+
+    def storeFile = new File(props.get('key.store') ?: privateHelpers.ensureValueExists(propsFilePath, props, 'storeFile'))
+    if (!storeFile.isAbsolute()) {
+        storeFile = RelativePath.parse(true, storeFile.toString()).getFile(propsFile.getParentFile())
+    }
+    if (!storeFile.exists()) {
+        throw new FileNotFoundException('Keystore file does not exist: ' + storeFile.getAbsolutePath())
+    }
+    signingConfig.keyAlias = props.get('key.alias') ?: privateHelpers.ensureValueExists(propsFilePath, props, 'keyAlias')
+    signingConfig.keyPassword = props.get('keyPassword', props.get('key.alias.password', signingConfig.keyPassword))
+    signingConfig.storeFile = storeFile
+    signingConfig.storePassword = props.get('storePassword', props.get('key.store.password', signingConfig.storePassword))
+    def storeType = props.get('storeType', props.get('key.store.type', ''))
+    if (!storeType) {
+        def filename = storeFile.getName().toLowerCase();
+        if (filename.endsWith('.p12') || filename.endsWith('.pfx')) {
+            storeType = 'pkcs12'
+        } else {
+            storeType = signingConfig.storeType // "jks"
+        }
+    }
+    signingConfig.storeType = storeType
+}
+
+for (def func : cdvPluginPostBuildExtras) {
+    func()
+}
+
+// This can be defined within build-extras.gradle as:
+//     ext.postBuildExtras = { ... code here ... }
+if (hasProperty('postBuildExtras')) {
+    postBuildExtras()
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '27.0.1'
+            }
+        }
+    }
+}
+
+
+

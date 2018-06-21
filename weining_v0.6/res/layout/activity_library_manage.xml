@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_29323B"
+    android:orientation="vertical">
+    <include layout="@layout/base_title_headerbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/color_bebfc3"
+            android:drawableLeft="@drawable/lssl_search"
+            android:drawableRight="@drawable/lssl_voice"
+            android:padding="5dp"
+            android:hint="搜索"
+            android:textSize="14sp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的应用"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="17dp" />
+
+        <GridView
+            android:id="@+id/gv_mycolumn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:verticalSpacing="10dp" >
+        </GridView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="为你推荐"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="17dp" />
+
+        <GridView
+            android:id="@+id/gv_recommended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:numColumns="4"
+            android:stretchMode="columnWidth"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:verticalSpacing="10dp">
+        </GridView>
+    </LinearLayout>
+</LinearLayout>

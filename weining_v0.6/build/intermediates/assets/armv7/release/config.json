@@ -1,0 +1,130 @@
+{
+  "config": {
+    "confignName": "象谱0.5版本小圆点配置",
+    "version": "1.0",
+    "updateTime": "2017-05-13",
+    "describe": "根据类别添加Iitem，如CommandCenter代表指挥中心",
+    "BaseConfig": [
+      {
+        "title": "我的",
+        "icon": "my",
+        "type": "action",
+        "sub": "my"
+      }
+    ],
+    "CommandCenter": [
+      {
+        "title": "创建指挥",
+        "icon": "createcommand",
+        "type": "action",
+        "sub": "CommandCenter_CreateCommand"
+      },
+      {
+        "title": "删除内容",
+        "icon": "deletecommand",
+        "type": "action",
+        "sub": "CommandCenter_Deletecommand"
+      },
+      {
+        "title": "新增内容",
+        "icon": "addcommand",
+        "type": "action",
+        "sub": "CommandCenter_Addcommand"
+      },
+      {
+        "title": "中控室",
+        "icon": "controlroom",
+        "type": "action",
+        "sub": "CommandCenter_Controlroom"
+      },
+      {
+        "title": "指挥切换",
+        "icon": "switchcommand",
+        "type": "action",
+        "sub": "CommandCenter_SwitchCommand"
+      },
+      {
+        "title": "指挥管理",
+        "icon": "commandmanage",
+        "type": "action",
+        "sub": "CommandCenter_CommandManage"
+      },
+      {
+        "title": "历史详情",
+        "icon": "commandhistory",
+        "type": "action",
+        "sub": "CommandCenter_HistorySearch"
+      }
+    ],
+    "CommandCenter_CreateCommand": [
+      {
+        "title": "创建指挥",
+        "icon": "createcommand",
+        "type": "action",
+        "sub": "CommandCenter_CreateCommand"
+      },
+      {
+        "title": "删除内容",
+        "icon": "deletecommand",
+        "type": "action",
+        "sub": "CommandCenter_Deletecommand"
+      },
+      {
+        "title": "新增内容",
+        "icon": "addcommand",
+        "type": "action",
+        "sub": "CommandCenter_Addcommand"
+      },
+      {
+        "title": "中控室",
+        "icon": "controlroom",
+        "type": "action",
+        "sub": "CommandCenter_Controlroom"
+      },
+      {
+        "title": "指挥管理",
+        "icon": "commandmanage",
+        "type": "action",
+        "sub": "CommandCenter_CommandManage"
+      },
+      {
+        "title": "历史详情",
+        "icon": "commandhistory",
+        "type": "action",
+        "sub": "CommandCenter_HistorySearch"
+      }
+    ],
+    "ShoppingMall": [
+      {
+        "icon": "userinfo",
+        "title": "会员中心",
+        "type": "url",
+        "sub": "http://ecmp.weilian.cn/wap/member/center.html"
+      },
+      {
+        "icon": "usercategory",
+        "title": "商品分类",
+        "type": "url",
+        "sub": "http://ecmp.weilian.cn/wap/category.html"
+      },
+      {
+        "icon": "order",
+        "title": "采购查询",
+        "type": "url",
+        "sub": "http://scn.vr.weilian.cn:8111/sale/H5/mobile/purchase_order_list.html"
+      },
+      {
+        "icon": "stock",
+        "title": "库存查询",
+        "type": "url",
+        "sub": "http://scn.vr.weilian.cn:8111/sale/H5/mobile/vendor_stock_list.html"
+      },
+      {
+        "icon": "sale",
+        "title": "零售查询",
+        "type": "url",
+        "sub": "http://scn.vr.weilian.cn:8111/sale/H5/mobile/retail_order.html"
+      }
+    ]
+  }
+}

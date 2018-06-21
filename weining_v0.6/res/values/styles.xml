@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/text_13_sp</item>
+    </style>
+
+    <style name="ServerMainLoginActivityTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyFullscreenAppTheme" parent="android:Theme.Light">
+        <item name="android:textStyle">normal</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--<style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:textStyle">normal</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:colorBackground">@android:color/transparent</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorAccentDark</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="color">@color/colorAccent</item>
+
+        <item name="android:textColorLink">@drawable/selector_text_color_link</item>
+        <item name="colorControlActivated">@color/colorAccentDark</item>
+        <item name="android:textColorHighlight">@color/colorAccent_a40</item>
+
+        <item name="actionModeBackground">?attr/colorPrimaryDark</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.AppStartLoad" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/auth_splash_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowDisablePreview">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:colorBackground">@android:color/transparent</item>-->
+    </style>
+
+    <style name="CenterDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- pupupwindow的弹出和消失动画 -->
+    <style name="popup_window_anim">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_out</item>
+    </style>
+
+    <style name="popup_bottom_window_anim">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <!-- 个人资料编辑页面 -->
+    <style name="divide_line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_marginLeft">@dimen/item_name_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/item_arrow_margin_right</item>
+    </style>
+
+    <!--<style name="actionsheet_basic">-->
+        <!--<item name="actionSheetBackground">@android:color/transparent</item>-->
+        <!--<item name="cancelButtonBackground">@drawable/actionsheet_slt_as_ios_cancel_bt</item>-->
+        <!--<item name="otherButtonTopBackground">@drawable/actionsheet_slt_as_ios_other_bt_top</item>-->
+        <!--<item name="otherButtonMiddleBackground">@drawable/actionsheet_slt_as_ios_other_bt_middle-->
+        <!--</item>-->
+        <!--<item name="otherButtonBottomBackground">@drawable/actionsheet_slt_as_ios_other_bt_bottom-->
+        <!--</item>-->
+        <!--<item name="otherButtonSingleBackground">@drawable/actionsheet_slt_as_ios_other_bt_single-->
+        <!--</item>-->
+        <!--<item name="cancelButtonTextColor">#959595</item>-->
+        <!--<item name="otherButtonTextColor">#959595</item>-->
+        <!--<item name="actionSheetPadding">10dp</item>-->
+        <!--<item name="otherButtonSpacing">0dp</item>-->
+        <!--<item name="cancelButtonMarginTop">10dp</item>-->
+        <!--<item name="actionSheetTextSize">16sp</item>-->
+        <!--<item name="titleButtonTextColor">#959595</item>-->
+    <!--</style>-->
+
+    <!--<style name="actionsheet_orange_style" parent="actionsheet_basic">-->
+        <!--<item name="titleButtonVisible">true</item>-->
+    <!--</style>-->
+
+    <declare-styleable name="circleTextProgressbar">
+        <attr name="in_circle_color" format="color" />
+    </declare-styleable>
+
+    <style name="Anim_fade" parent="android:Theme.Light">
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/dync_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/dync_out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/dync_in_from_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/dync_out_to_left</item>
+    </style>
+
+    <style name="dialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- 自定义弹出框样式 -->
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 背景模糊 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 允许对话框的背景变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 自定义progress样式 -->
+    <style name="CustomProgressDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 主页无网络提示样式 -->
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 自定义样式的name属性用于引用，父亲是默认的style -->
+    <style name="InitProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <!-- 最大高度50dp，最小高度10dp，进度值确定，Drawable样式文件引用 -->
+        <item name="android:maxHeight">50dp</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/init_progressbar</item>
+    </style>
+</resources>

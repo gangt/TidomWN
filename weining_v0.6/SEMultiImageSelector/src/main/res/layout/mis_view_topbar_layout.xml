@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mis_title_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mis_topbar_height"
+    android:background="#2c333a"
+    android:orientation="horizontal"
+    android:paddingRight="10dip" >
+
+    <TextView
+        android:id="@+id/mis_back_view"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:drawableLeft="@drawable/mis_skin_icon_back"
+        android:drawablePadding="4dip"
+        android:gravity="center_vertical"
+        android:padding="10dip"
+        android:text="@string/topbar_title_image"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/mis_done"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:background="@drawable/mis_shape_action_btn"
+        android:minWidth="50dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:text="@string/choice_image_done"
+        android:textColor="@color/mis_color_default_text"
+        android:textSize="14sp" />
+
+</LinearLayout>

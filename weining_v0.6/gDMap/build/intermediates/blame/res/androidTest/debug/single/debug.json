@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir6.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir6.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_border_bg.9.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\border_bg.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_through.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_through.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir_station.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir_station.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_ride.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_ride.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir11.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir11.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_back.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\back.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_title_background.9.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\title_background.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_car.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_car.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir9.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_down.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\down.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_start.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_start.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_drive_normal.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_drive_normal.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir2.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir2.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_end.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_end.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir5.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir5.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_bus_segment_ex.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\layout\\item_bus_segment_ex.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir1.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir1.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_bus.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_bus.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir8.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir8.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_search_plate_global.9.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\search_plate_global.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir_end.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir_end.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_drive_select.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_drive_select.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_route_detail.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_route_detail.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_bus_result.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\layout\\item_bus_result.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_walk_normal.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_walk_normal.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_bus_normal.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_bus_normal.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir4.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir4.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir16.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir16.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir13.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir13.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_item_bus_segment.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\layout\\item_bus_segment.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_up.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\up.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir7.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir7.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_bus_select.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_bus_select.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_amap_man.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\amap_man.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_route_walk_select.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\route_walk_select.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir10.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir10.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_arrow_right_blue.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\arrow_right_blue.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir14.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir14.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir3.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir3.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dir_start.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dir_start.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_bg_bottom_bar.9.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\gDMap\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_bottom_bar.9.png"
+    }
+]

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.unquietcode.tools.jstate:jstate:2.1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.unquietcode.tools.jstate/jstate/2.1/1913c206c37e72c9cd0bd323de7d48e1e1c8ba15/jstate-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.unquietcode.tools.jstate/jstate/2.1/3d6ee0fca4abb228a74fc5f671d85533e892f134/jstate-2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

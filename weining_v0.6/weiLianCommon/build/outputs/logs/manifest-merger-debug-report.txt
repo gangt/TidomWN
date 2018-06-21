@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml
+		INJECTED from F:\SuneeeProject\weining_v0.6\weiLianCommon\src\main\AndroidManifest.xml

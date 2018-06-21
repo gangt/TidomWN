@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\wnNEW\weining_v0.6\CordovaLib\assets"/><source path="E:\wnNEW\weining_v0.6\CordovaLib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\wnNEW\weining_v0.6\CordovaLib\src\debug\assets"/></dataSet></merger>

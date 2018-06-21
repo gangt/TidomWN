@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="basic_array_choose_image">
+        <item>"拍照"</item>
+        <item>"从手机相册选择"</item>
+    </string-array>
+
+    <string-array name="basic_array_gender">
+        <item>"男"</item>
+        <item>"女"</item>
+    </string-array>
+
+    <string-array name="basic_command_category">
+        <item>"拉视频"</item>
+        <item>"拉数据"</item>
+        <item>"组团队"</item>
+    </string-array>
+
+    <string-array name="basic_array_identity_type">
+        <item>"身份证"</item>
+        <item>"护照"</item>
+        <item>"军人证"</item>
+    </string-array>
+
+    <string-array name="basic_array_set">
+        <item>"备注"</item>
+        <item>"删除"</item>
+    </string-array>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer" />
+        <attr name="donut_max" format="integer" />
+        <attr name="donut_unfinished_color" format="color" />
+        <attr name="donut_finished_color" format="color" />
+        <attr name="donut_finished_start_color" format="color" />
+        <attr name="donut_finished_end_color" format="color" />
+        <attr name="donut_finished_stroke_width" format="dimension" />
+        <attr name="donut_unfinished_stroke_width" format="dimension" />
+        <attr name="donut_background_color" format="color" />
+        <attr name="donut_circle_starting_degree" format="integer" />
+        <attr name="donut_paint_style" format="enum">
+            <enum name="FILL" value="0" />
+            <enum name="STROKE" value="1" />
+            <enum name="FILL_AND_STROKE" value="2" />
+        </attr>
+        <attr name="donut_drawarc_usecenter" format="boolean" />
+        <attr name="donut_finished_alpha" format="integer" />
+        <attr name="donut_unfinished_alpha" format="integer" />
+        <attr name="donut_finished_arc_level" format="integer" />
+        <attr name="donut_unfinished_arc_level" format="integer" />
+        <attr name="donut_finished_arc_scale" format="integer" />
+        <attr name="donut_unfinished_arc_scale" format="integer" />
+        <attr name="donut_wave_color" format="color" />
+        <attr name="donut_show_wave" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="VerifyCode">
+        <attr name="codeTextSize" format="dimension" />
+        <attr name="codeBackground" format="color" />
+        <attr name="codeLength" format="integer" />
+        <attr name="isContainChar" format="boolean" />
+        <attr name="pointNum" format="integer" />
+        <attr name="linNum" format="integer" />
+    </declare-styleable>
+
+    <string-array name="arrays_menu">
+        <item>个人资料</item>
+        <item>账户安全</item>
+        <item>消息</item>
+        <item>我的空间</item>
+        <item>设置</item>
+        <item>帮助和反馈</item>
+        <item>关于</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.pgyersdk:sdk-2.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-2.7.0.aar/3dab2b5323d9c1e7afdca73212441b67/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/sdk-2.7.0.aar/3dab2b5323d9c1e7afdca73212441b67/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

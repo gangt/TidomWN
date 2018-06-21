@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/net_view_rl"
+    android:layout_width="fill_parent"
+    android:layout_height="53dp"
+    android:background="@color/custom_bg"
+    android:gravity="center_vertical"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/dd"
+        style="@style/wrap_content"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/msp_edit_warning" />
+
+    <TextView
+        android:id="@id/net_title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="1"
+        android:text="@string/net_unavailable"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/loading_again"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/netbar_loading_again_bg"
+        android:text="@string/net_loading_again"
+        android:textColor="#D51323"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+</LinearLayout>

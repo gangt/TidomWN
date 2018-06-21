@@ -1,0 +1,11 @@
+Key store path:见项目根目录下的weining.jks文件
+Key store password:suneee123
+Key alias:weining
+Key password:suneee123
+
+威宁象谱0.6生产包
+包名：com.suneee.weining
+发布时间：2017.12.29
+定子链地址：http://ucp.wn.sunmath.cn
+定子链推送走的消息中心，集成的阿里云推送
+

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GaoDelibrary</string>
+    <string name="route_demo">Route路径规划</string>
+</resources>

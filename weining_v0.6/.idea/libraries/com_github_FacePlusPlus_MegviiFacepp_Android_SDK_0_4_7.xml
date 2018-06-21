@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.github.FacePlusPlus:MegviiFacepp-Android-SDK-0.4.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MegviiFacepp-Android-SDK-0.4.7.aar/c90a40c1bfcd95ea1d83dc768514b4fc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MegviiFacepp-Android-SDK-0.4.7.aar/c90a40c1bfcd95ea1d83dc768514b4fc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

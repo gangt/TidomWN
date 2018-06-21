@@ -1,0 +1,3 @@
+# Referenced at E:\wnNEW\weining_v0.6\build\intermediates\manifests\full\armv7\debug\AndroidManifest.xml:132
+-keep class com.lssl.activity.SuneeeApplication { <init>(...); }
+

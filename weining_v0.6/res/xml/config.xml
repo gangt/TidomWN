@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" android-versionCode="242"
+        id="com.konecty.rocket.chat"
+        ios-CFBundleVersion="10"
+        version="2.4.0" xmlns="http://www.w3.org/ns/widgets">
+    <preference name="loglevel" value="DEBUG"/>
+    <feature name="CordovaUpdate">
+        <param name="android-package" value="com.meteor.cordova.updater.CordovaUpdatePlugin"/>
+    </feature>
+    <feature name="Clipboard">
+        <param name="android-package" value="com.verso.cordova.clipboard.Clipboard"/>
+    </feature>
+    <feature name="ActionSheet">
+        <param name="android-package" value="nl.xservices.plugins.actionsheet.ActionSheet"/>
+    </feature>
+    <feature name="AppInfo">
+        <param name="android-package" value="org.scriptotek.appinfo.AppInfo"/>
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
+    </feature>
+    <preference name="webView" value="org.crosswalk.engine.XWalkWebViewEngine"/>
+    <preference name="xwalkVersion" default="17+"/>
+    <preference name="xwalkCommandLine" default="--disable-pull-to-refresh-effect"/>
+    <preference name="xwalkMode" default="embedded"/>
+    <preference name="xwalkMultipleApk" default="true"/>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device"/>
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification"/>
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer"/>
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation"/>
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser"/>
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.LegacyWhitelistPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler"/>
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture"/>
+    </feature>
+    <feature name="SharingReceptor">
+        <param name="android-package" value="org.apache.cordova.sharingreceptor.SharingReceptor"/>
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing"/>
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" value="io.ionic.keyboard.IonicKeyboard"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin"/>
+    </feature>
+    <feature name="FacebookConnectPlugin">
+        <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <!--andi begin-->
+    <feature name="WebRtcPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.WebRtcPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="CapturePhotoPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.CapturePhotoPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="SEPayPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.SEPayPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="BluetoochPrinterPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.BluetoochPrinterPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="PlayerPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.PlayerPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="AudioSearchPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.AudioSearchPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="QCodePlugin">
+        <param name="android-package" value="com.xiangpu.plugin.QCodePlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="WebPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.WebPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="SessionIdPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.SessionIdPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="LocationPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.LocationPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="SharePlugin">
+        <param name="android-package" value="com.xiangpu.plugin.SharePlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="UCPCommandPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.UCPCommandPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="OpenUrlPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.OpenUrlPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="CenterCommandPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.CenterCommandPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="CenterIMPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.CenterIMPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="TimeSpacePlugin">
+        <param name="android-package" value="com.xiangpu.plugin.TimeSpacePlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <feature name="CommonPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.CommonPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="ChangePasswordPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.ChangePasswordPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="GetPhotoPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.GetPhotoPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="UcpGetPhotoPlugin">
+        <param name="android-package" value="com.xiangpu.plugin.UcpGetPhotoPlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+
+    <feature name="ShowTitlePlugin">
+        <param name="android-package" value="com.xiangpu.plugin.ShowTitlePlugin"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <!--andi end-->
+
+    <access origin="https://m.facebook.com"/>
+    <access origin="https://graph.facebook.com"/>
+    <access origin="https://api.facebook.com"/>
+    <access origin="https://*.fbcdn.net"/>
+    <access origin="https://*.akamaihd.net"/>
+    <!--<feature name="TwitterConnect">-->
+        <!--<param name="android-package" value="com.manifestwebdesign.twitterconnect.TwitterConnect"/>-->
+    <!--</feature>-->
+    <feature name="GooglePlus">
+        <param name="android-package" value="nl.xservices.plugins.GooglePlus"/>
+        <param name="onload" value="true"/>
+    </feature>
+    <access origin="https://accounts.google.com/*"/>
+    <preference name="android-minSdkVersion" value="16"/>
+    <icon density="mdpi" src="resources/icons/platform/android/res/drawable-mdpi/appicon.png"/>
+    <icon density="hdpi" src="resources/icons/platform/android/res/drawable-hdpi/appicon.png"/>
+    <icon density="xhdpi" src="resources/icons/platform/android/res/drawable-xhdpi/appicon.png"/>
+    <icon density="xxhdpi" src="resources/icons/platform/android/res/drawable-xxhdpi/appicon.png"/>
+    <icon density="xxxhdpi"
+          src="resources/icons/platform/android/res/drawable-xxxhdpi/appicon.png"/>
+    <splash density="port-mdpi" height="480"
+            src="resources/splash/Resources/android/images/res-long-port-mdpi/default.png"
+            width="320"/>
+    <splash density="port-hdpi" height="800"
+            src="resources/splash/Resources/android/images/res-long-port-hdpi/default.png"
+            width="480"/>
+    <splash density="port-xhdpi" height="960"
+            src="resources/splash/Resources/android/images/res-long-port-xhdpi/default.png"
+            width="640"/>
+    <splash density="port-xxhdpi" height="1600"
+            src="resources/splash/Resources/android/images/res-long-port-xxhdpi/default.png"
+            width="960"/>
+    <splash density="port-xxxhdpi" height="1920"
+            src="resources/splash/Resources/android/images/res-long-port-xxxhdpi/default.png"
+            width="1280"/>
+    <splash density="land-mdpi" height="320"
+            src="resources/splash/Resources/android/images/res-long-land-mdpi/default.png"
+            width="480"/>
+    <splash density="land-hdpi" height="480"
+            src="resources/splash/Resources/android/images/res-long-land-hdpi/default.png"
+            width="800"/>
+    <splash density="land-xhdpi" height="640"
+            src="resources/splash/Resources/android/images/res-long-land-xhdpi/default.png"
+            width="960"/>
+    <splash density="land-xxhdpi" height="960"
+            src="resources/splash/Resources/android/images/res-long-land-xxhdpi/default.png"
+            width="1600"/>
+    <splash density="land-xxxhdpi" height="1280"
+            src="resources/splash/Resources/android/images/res-long-land-xxxhdpi/default.png"
+            width="1920"/>
+    <name>Rocket.Chat</name>
+    <description>
+        Rocket.Chat mobile application
+    </description>
+    <author email="support@rocket.chat" href="http://rocket.chat">
+        Rocket.Chat
+    </author>
+    <content src="index.html"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="geo:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="market:*"/>
+    <access launch-external="true" origin="tel:*"/>
+    <access launch-external="true" origin="geo:*"/>
+    <access launch-external="true" origin="mailto:*"/>
+    <access launch-external="true" origin="sms:*"/>
+    <access launch-external="true" origin="market:*"/>
+    <access origin="file:*"/>
+    <access origin="blob:*"/>
+    <access origin="cdv:*"/>
+    <access origin="gap:*"/>
+    <access origin="*"/>
+    <allow-navigation href="http://*/*"/>
+    <allow-navigation href="https://*/*"/>
+    <allow-navigation href="data:*"/>
+    <preference name="xwalkVersion" value="15+"/>
+    <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect"/>
+    <preference name="xwalkMode" value="embedded"/>
+    <preference name="xwalkMultipleApk" value="true"/>
+    <preference name="webviewbounce" value="false"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="AutoHideSplashScreen" value="false"/>
+    <preference name="ShowSplashScreenSpinner" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false"/>
+    <preference name="FadeSplashScreen" value="false"/>
+    <preference name="StatusBarStyle" value="blackopaque"/>
+    <preference name="StatusBarBackgroundColor" value="#000000"/>
+    <preference name="deployment-target" value="8.0"/>
+    <preference name="AndroidLaunchMode" value="singleTask"/>
+    <preference name="Orientation" value="all"/>
+    <hook src="hooks/beforePrepare.js" type="before_prepare"/>
+    <preference name="TwitterConsumerKey" value="njl2I82AXrOo0YftZyKHyC8aV"/>
+    <preference name="TwitterConsumerSecret"
+                value="2RmFsMIZmOXY4mMQ1qTuoOOcOPDVtgNMbJLPFgigaYTPpQuVVQ"/>
+</widget>

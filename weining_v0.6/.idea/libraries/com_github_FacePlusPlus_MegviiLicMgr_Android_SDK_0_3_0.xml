@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.github.FacePlusPlus:MegviiLicMgr-Android-SDK-0.3.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MegviiLicMgr-Android-SDK-0.3.0.aar/9ff0d98f021a0dc4cd6cac57cbe70b88/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MegviiLicMgr-Android-SDK-0.3.0.aar/9ff0d98f021a0dc4cd6cac57cbe70b88/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

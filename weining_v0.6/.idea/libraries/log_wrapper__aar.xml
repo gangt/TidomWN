@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="log-wrapper:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/log-wrapper.aar/802a577e07516376595c48024f27c6c2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/log-wrapper.aar/802a577e07516376595c48024f27c6c2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

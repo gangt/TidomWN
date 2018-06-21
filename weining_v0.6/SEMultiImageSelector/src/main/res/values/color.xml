@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mis_topbar_bg_color">#2c333a</color>
+    <color name="mis_color_gray">#9c9c9c</color>
+    <color name="basic_text_gray_color">#666666</color>
+    <color name="adapter_item_phone_selector_color">#cccccc</color>
+
+</resources>

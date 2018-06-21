@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="开始录音" />
+
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="停止" />
+
+    <Button
+        android:id="@+id/paly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="播放" />
+    <Button
+        android:id="@+id/pause_paly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="暂停播放" />
+    <Button
+        android:id="@+id/stop_paly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pause_paly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="停止播放" />
+
+</RelativeLayout>

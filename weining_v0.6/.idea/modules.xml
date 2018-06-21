@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/CordovaLib/CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEMultiImageSelector/SEMultiImageSelector.iml" filepath="$PROJECT_DIR$/SEMultiImageSelector/SEMultiImageSelector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gDMap/gDMap.iml" filepath="$PROJECT_DIR$/gDMap/gDMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainActivity/mainActivity.iml" filepath="$PROJECT_DIR$/mainActivity/mainActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrcode/qrcode.iml" filepath="$PROJECT_DIR$/qrcode/qrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sepay/sepay.iml" filepath="$PROJECT_DIR$/sepay/sepay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weining_v0.6.iml" filepath="$PROJECT_DIR$/weining_v0.6.iml" />
+    </modules>
+  </component>
+</project>

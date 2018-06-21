@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="persistence-realm:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/persistence-realm.aar/09c8d9fc34925d7a77d9a52eea76c669/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/persistence-realm.aar/09c8d9fc34925d7a77d9a52eea76c669/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-mdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\mipmap-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_main.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-hdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\mipmap-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxxhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\mainActivity\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxxhdpi-v4\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968021559640",
+    "firebase_url": "https://suneeeucp-152605.firebaseio.com",
+    "project_id": "suneeeucp-152605",
+    "storage_bucket": "suneeeucp-152605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968021559640:android:03a7c308024e1226",
+        "android_client_info": {
+          "package_name": "com.suneee.ucp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968021559640-8gqhjue6ukk2jr23772pu7hmbkp2s37m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-KGgwUrtqQ4CsWnoXyyBFsny9W_hroyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968021559640-8gqhjue6ukk2jr23772pu7hmbkp2s37m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

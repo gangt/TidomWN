@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_bg">
+
+    <LinearLayout
+        android:id="@+id/layout_login_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="182dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="71dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/login_logo" />
+
+        <LinearLayout
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/account_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/register_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="45dp"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="请输入姓名/手机号"
+                android:inputType="text"
+                android:maxEms="15"
+                android:maxLines="1"
+                android:textColor="@color/txt_login_text"
+                android:textColorHint="@color/txt_login_hint"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/password_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_login_password_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="45dp"
+                android:background="@null"
+                android:ellipsize="end"
+                android:hint="请输入密码"
+                android:maxEms="15"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/txt_login_text"
+                android:textColorHint="@color/txt_login_hint"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="53dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_login_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_button_bg"
+                android:text="@string/login_button"
+                android:textColor="@color/txt_login_text"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/forget_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/login_forget_password"
+                android:textColor="@color/txt_login_forget"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/forget_psd"
+                android:text="|"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/line"
+                android:text="@string/register_now"
+                android:textColor="@color/txt_login_forget"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/remember_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:button="@drawable/remember_psd_bg"
+                android:checked="true"
+                android:text="\t记住密码"
+                android:textColor="@color/txt_login_forget"
+                android:textSize="@dimen/font_small"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relat_gesturelockview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.xiangpu.views.GestureLockViewGroup
+            android:id="@+id/id_gestureLockViewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            zhy:count="3"
+            zhy:tryTimes="5" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/copyright_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/login_copyright_notice"
+        android:textSize="10sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/img_back_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/copyright_notice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@null"
+        android:src="@drawable/back_btn_bg" />
+
+</RelativeLayout>

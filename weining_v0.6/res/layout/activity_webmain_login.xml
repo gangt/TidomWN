@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_29323B"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <WebView
+                android:id="@+id/ll_system_webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

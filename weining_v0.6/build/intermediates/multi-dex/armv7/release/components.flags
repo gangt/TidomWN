@@ -1,0 +1,42 @@
+-injars 'E:\wnNEW\weining_v0.6\build\intermediates\transforms\jarMerging\armv7\release\0.jar'
+-outjars 'E:\wnNEW\weining_v0.6\build\intermediates\multi-dex\armv7\release\componentClasses.jar'
+
+-libraryjars 'E:\android-sdk-windows\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'E:\wnNEW\weining_v0.6\build\intermediates\multi-dex\armv7\release\components.flags'
+
+
+# Referenced at E:\wnNEW\weining_v0.6\build\intermediates\manifests\full\armv7\release\AndroidManifest.xml:132
+-keep class com.lssl.activity.SuneeeApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

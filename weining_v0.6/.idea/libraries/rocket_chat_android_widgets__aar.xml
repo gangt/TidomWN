@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="rocket-chat-android-widgets:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rocket-chat-android-widgets.aar/3ee3f65eb5dc2acd2e0cd86564372a52/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rocket-chat-android-widgets.aar/3ee3f65eb5dc2acd2e0cd86564372a52/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

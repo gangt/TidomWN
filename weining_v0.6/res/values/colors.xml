@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 小圆点 start -->
+    <color name="text_color">#E0E0E0</color>
+    <!-- 小圆点 end -->
+
+    <color name="white">#ffffff</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <!-- 白色 -->
+    <color name="color_black">#444242</color>
+    <!-- 黑色 -->
+    <color name="color_blue">#52a0e0</color>
+    <!-- 蓝色 -->
+    <color name="color_green">#7bdc70</color>
+    <!-- 绿色 -->
+    <color name="color_gray">#818181</color>
+    <!-- 灰色 -->
+    <color name="color_red">#c5101a</color>
+    <color name="color_red_730000">#730000</color>
+    <!-- 红色 -->
+    <color name="color_yellow">#F8CC46</color>
+    <!-- 黄色 -->
+
+    <!-- 指挥中心-start -->
+    <color name="color_gray_bottom_bg">#929098</color>
+    <!-- 指挥中心-end -->
+
+    <color name="basic_title_text">#434343</color>
+    <color name="basic_color_primary">#29323B</color>
+    <color name="webview_tab_bgcolor">#0085be</color>
+    <color name="head_bgcolor">#0867b2</color>
+    <color name="page_bgcolor">@color/basic_page_color</color>
+    <color name="basic_page_color">#F5F5F5</color>
+    <color name="basic_topbar_bg_color">#cecece</color>
+    <color name="basic_topbar_bg_press_color">#0867b2</color>
+    <color name="basic_exponent_topbar_bg_color">#082b42</color>
+    <color name="basic_rank_topbar_bg_color">#307cc6</color>
+    <color name="basic_text_default_color">#333333</color>
+    <color name="basic_text_gray_color">#666666</color>
+    <color name="basic_text_gray_color1">#999999</color>
+    <color name="basic_item_press_color">#f9f9f9</color>
+    <color name="basic_item_normal_color">@android:color/white</color>
+    <color name="basic_item_disable_text_color">#e3e3e3</color>
+    <color name="basic_item_red_normal_color">#fc6156</color>
+    <color name="basic_item_red_press_color">#e2574d</color>
+    <color name="basic_main_panel_text_color">#6d6e81</color>
+
+
+    <color name="color_f6f6f6">#f6f6f6</color>
+    <color name="color_balk">#ff000000</color>
+    <color name="color_808488">#808488</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color_0867b2">#0867b2</color>
+    <color name="color_29323B">#29323B</color>
+    <color name="color_C72D28">#730000</color>
+    <color name="color_cbdcdf">#cbdcdf</color>
+    <color name="color_dcdfdf">#dcdfdf</color>
+    <color name="color_C56813">#C56813</color>
+    <color name="color_00204C">#00204C</color>
+    <color name="color_c5c5c5">#c5c5c5</color>
+    <color name="color_757575">#757575</color>
+    <color name="color_a6a6a6">#a6a6a6</color>
+    <color name="color_676666">#676666</color>
+    <color name="color_c2beb3">#c2beb3</color>
+    <color name="color_bebfc3">#bebfc3</color>
+    <color name="color_348fff">#348fff</color>
+
+    <!--主页 start-->
+    <color name="zhuye_horizontal_line_default">#E3B7B7</color>
+    <color name="zhuye_horizontal_line_weilianbao">#D1D9E1</color>
+    <color name="zhuye_horizontal_line_weilianwa">#F9F1E9</color>
+    <color name="zhuye_vertical_line_weilianbao">#334D71</color>
+    <color name="zhuye_vertical_line_weilianwa">#D18640</color>
+    <!--主页 end-->
+
+    <color name="cordova_page_color">#F5F5F5</color>
+    <color name="im_black">#000000</color>
+
+    <color name="map_topbar_bg_press_color">#F4B310</color>
+
+    <color name="cordova_color_primary">#cecece</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_626262">#626262</color>
+    <color name="color_505050">#445760</color>
+    <color name="color_bcc4c2">#bcc4c2</color>
+    <color name="color_a2aaa8">#a2aaa8</color>
+    <color name="color_bdc0c2">#bdc0c2</color>
+    <color name="color_293136">#293136</color>
+    <color name="color_bdc3c3">#FFFFFF</color>
+    <color name="color_a3a9a9">#a3a9a9</color>
+
+    <color name="bg_color">#f0f2f2</color>
+    <color name="bg_color_1">#DEE1E1</color>
+    <color name="bg_title_bar">#2B323A</color>
+    <color name="bg_item_personal_center">#EAEFEF</color>
+
+    <color name="grey_f6f6f6">#f6f6f6</color>
+    <color name="grey_a5a5a5">#A5A5A5</color>
+    <color name="grey_dde1e7">#DDE1E7</color>
+    <color name="red_f4333c">#F4333C</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="agora_blue">#FF00A0EB</color>
+
+    <color name="lightColorAccent">#30FF4081</color>
+
+    <color name="dark_black">#CC262626</color>
+
+    <color name="transparent_75_white">#ACFFFFFF</color>
+
+    <color name="dark_gray">#FF55585A</color>
+
+    <color name="scan_transparent">#00000000</color>
+
+    <color name="text_press">#9d9c9c</color>
+    <color name="text_normal">#ffffff</color>
+    <!-- 登录页面 start -->
+    <color name="txt_login_hint">#929099</color>
+    <color name="txt_login_text">#000000</color>
+    <color name="txt_login_forget">#EFEFEF</color>
+    <!-- 登录页面 end -->
+
+
+    <!-- person页面 start -->
+    <color name="txt_color">#61545B</color>
+    <color name="oranges">#E08F54</color>
+    <color name="txt_login_color">#A02118</color>
+    <color name="txt_login_color2">#DC6C6A</color>
+
+    <color name="line_gray">#EFEFEF</color>
+
+    <color name="red_f3323b">#F3323B</color>
+
+    <!-- person页面 end -->
+
+    <color name="red">#FF0000</color>
+    <color name="course_slid_selected">#004b80</color>
+
+    <!--yuheng-->
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_1b1b1b">#1b1b1b</color>
+    <color name="color_cfcfcf">#cfcfcf</color>
+    <color name="color_818181">#818181</color>
+    <color name="color_b01f24">#b01f24</color>
+    <color name="color_6c6b6b">#6c6b6b</color>
+    <color name="color_a3a3a3">#a3a3a3</color>
+    <color name="color_323034">#323034</color>
+    <color name="color_787b80">#787b80</color>
+    <color name="color_dedfe2">#dedfe2</color>
+    <color name="color_d51323">#d51323</color>
+    <color name="color_d0d2d6">#d0d2d6</color>
+
+    <color name="custom_bg">#CC000000</color>
+</resources>

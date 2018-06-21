@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- <item name="android:windowAnimationStyle">@style/ActionSheetAnimation</item> -->
+    </style>
+
+    <style name="actionsheet_ios7_style">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/actionsheet_slt_as_ios_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/actionsheet_slt_as_ios_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/actionsheet_slt_as_ios_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/actionsheet_slt_as_ios_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/actionsheet_slt_as_ios_other_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">0dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">16sp</item>
+    </style>
+
+</resources>

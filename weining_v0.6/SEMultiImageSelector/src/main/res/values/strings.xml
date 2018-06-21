@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="msg_no_picture">无效图片</string>
+    <string name="topbar_title_image">"取消"</string>
+    <string name="choice_image_done">"完成"</string>
+    <string name="mis_btn_text_send">"发送"</string>
+    <string name="take_photo">"拍摄照片"</string>
+
+</resources>

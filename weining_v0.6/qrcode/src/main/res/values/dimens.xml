@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scan_topbar_height">48dp</dimen>
+    <dimen name="scan_main_topbar_title_text_size">18sp</dimen>
+    <dimen name="scan_topbar_item_minwidht">56dp</dimen>
+    <dimen name="scan_title_bar_height">@dimen/scan_topbar_height</dimen>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+       <TextView 
+           android:layout_marginTop="40dp"
+           android:layout_marginBottom="20dp"
+           android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="@color/color_black"
+        	android:textSize="18dp"
+        	android:text="你好像还没有说话"/>
+       
+        <TextView 
+           android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="你可以这样说"
+        	android:gravity="center"
+        	android:layout_marginTop="20dp"
+        	android:textColor="@color/color_blue"
+        	/>
+       
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="5dp"
+	    	android:background="@color/color_white"
+	    	android:layout_marginTop="20dp"
+        >
+		<LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="1dp"
+		            android:layout_marginLeft="0.5dp"
+		            android:layout_marginRight="0.5dp"
+		            android:layout_margin="12dp"
+		            android:clickable="true"
+		            android:gravity="center"
+		           	android:background="@color/color_white"
+		            android:orientation="vertical" >
+		            <EditText
+				        android:id="@+id/edit_idea_id"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:maxLength="140"
+				        android:layout_margin="15dp"
+				        android:inputType="textMultiLine" 
+				        android:background="@null"
+				        android:textColor="@color/color_black"
+				        android:text="出差申请\n办公室\n考勤补签"
+				        android:gravity="center"
+				        android:hint="你说出你要检索的内容"  android:textSize="15sp"/>
+		        </LinearLayout>
+		        
+   	 	</LinearLayout>
+   	 
+          <LinearLayout 
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="5dp"
+	    	android:background="@null"
+	    	android:layout_marginTop="40dp"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="center"
+	    	android:gravity="center"
+        >
+           <ImageView
+		        android:id="@+id/img_question_id"
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:layout_gravity="center"
+		        android:layout_marginRight="40dp"
+		        android:background="@drawable/search_question_img"/>
+	       <Button 
+	            android:id="@+id/iat_recognize"
+	            android:layout_width="60dp"
+		        android:layout_height="60dp"
+		        android:background="@drawable/vicoe_search_img"
+		        android:text=""/>
+	        <ImageView
+	            android:id="@+id/img_stop_search_id"
+		        android:layout_width="30dp"
+		        android:layout_height="30dp"
+		        android:layout_gravity="center"
+		        android:layout_marginLeft="40dp"
+		        android:background="@drawable/search_off_img"/>
+		</LinearLayout>
+       
+       </LinearLayout>
+</LinearLayout>

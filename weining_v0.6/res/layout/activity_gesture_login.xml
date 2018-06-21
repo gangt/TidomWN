@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/auth_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/messageTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="请输入手势密码"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <com.star.lockpattern.widget.LockPatternView
+        android:id="@+id/lockPatternView"
+        android:layout_width="261dp"
+        android:layout_height="261dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="47dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp">
+
+        <Button
+            android:id="@+id/forgetGestureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="49dp"
+            android:background="@null"
+            android:text="@string/gesture_forget_gesture"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_fingerprint_open_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="49dp"
+            android:background="@null"
+            android:text="@string/gesture_open_lock"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

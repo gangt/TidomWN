@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_base_back_bg.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\base_back_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_shape_reget.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_reget.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_alipay.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\alipay.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_alipay.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\alipay.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_alipay.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\alipay.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_base_back_bg.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\base_back_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_wechat.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\wechat.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_sepay_main.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_sepay_main.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pay_list_item.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\layout\\pay_list_item.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_wechat.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\wechat.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_alipay.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\alipay.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_adapter_paytype.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\layout\\adapter_paytype.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_wechat.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\wechat.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.1.aar\\0c6719be568058b37154695bd2b1c706\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_wechat.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\wechat.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_base_back_bg.png.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\base_back_bg.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_tools.xml.flat",
+        "source": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_tools.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\wnNEW\\weining_v0.6\\sepay\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.1.aar\\b56016b5563de54350e9b64d8050cdf9\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

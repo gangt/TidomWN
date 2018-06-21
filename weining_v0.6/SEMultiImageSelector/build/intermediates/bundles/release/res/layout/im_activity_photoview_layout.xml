@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/adv_view_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.suneee.mis.view.PhotoViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ImageView
+            android:id="@+id/mis_load_indicator_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/mis_skin_icon_loading"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mis_photoview_title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mis_topbar_height"
+        android:layout_gravity="top"
+        android:background="@color/mis_topbar_bg_color"
+        android:orientation="horizontal"
+        android:paddingRight="10dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/mis_photoview_back_view"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/mis_skin_icon_back"
+            android:drawablePadding="4dip"
+            android:gravity="center_vertical"
+            android:padding="10dip"
+            android:text="@string/topbar_title_image"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="预览"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mis_photoview_bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/mis_topbar_bg_color"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/mis_photoview_orgin_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@null"
+            android:button="@null"
+            android:drawableLeft="@drawable/mis_checkbox_selector"
+            android:drawablePadding="6dip"
+            android:text="原图"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/mis_photoview_send"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/mis_shape_action_btn"
+            android:minWidth="70dip"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:text="@string/mis_btn_text_send"
+            android:textColor="@color/mis_color_default_text"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mis_bottom_control_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_gravity="bottom" >
+
+        <TextView
+            android:id="@+id/index_display_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/function_more_view"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="16dip"
+            android:src="@drawable/mis_skin_icon_function_more"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</FrameLayout>
